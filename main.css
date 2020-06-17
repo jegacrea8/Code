@@ -1,0 +1,53 @@
+body {
+    background-image: url('Images/Restaurant6.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+}
+
+.box2 {
+    text-align: center;
+    margin-top: 18%;
+    font-size: 30px;
+    
+}
+
+button {
+    background-color: white;
+    text-align: center;
+    color: black;
+    border: none;
+    margin: 8px;
+    cursor: pointer;
+    width: 179px;
+    padding: 20px auto;
+}
+
+button:hover {
+    opacity: 1;
+}
